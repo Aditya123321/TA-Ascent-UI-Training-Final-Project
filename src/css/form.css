@@ -1,0 +1,27 @@
+legend {
+	display: none;
+}
+
+input {
+	border: 1px solid #e8e9ea;
+}
+
+.label-block {
+	display: block;
+}
+
+.btn {
+	border-color: none;
+	border-radius: 4px;
+	display: inline-block;
+	background-color: #fff;
+	color: #000;
+}
+
+
+/* Blue button */
+
+.btn-blue {
+	background-color: #3370ff;
+	color: #fff;
+}

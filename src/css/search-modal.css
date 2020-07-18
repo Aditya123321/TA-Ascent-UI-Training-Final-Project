@@ -1,0 +1,52 @@
+/* CSS to the div component in the page */
+.innerdiv {
+	display:none;
+	width:100%;
+	min-height: 176px;
+	background-color: #000000;
+	border-bottom: 17px solid #A5A5A5;
+  }
+  
+  /* Wrapper for the search field in order to achieve search and close icons */
+  .search-field-group {
+	position: relative;
+	width: 872.04px;
+	height:62.36px;
+	margin: 42px 205px auto;
+  }
+  
+  /* Styling for search icon which appears before text box */
+  .search-field-group::before {
+	content: ' \26B2';
+	transform: rotate(-45deg);
+	font-size: 30px;
+  }
+  
+  /*Styling for reset icon which appears after text box */
+  .search-field-group::after {
+	content: ' \2715';
+	right: -44px;
+	top: 0.1px;
+	font-size: 35px;
+  }
+  /* Common styling for the search field before and after */
+  .search-field-group:before,
+  .search-field-group:after {
+	color: #A5A5A5;
+	display: inline-block;
+	position: absolute;
+	z-index: 2;
+  }
+  
+  /* CSS styling for Search box */
+  .search-box {
+	color: #A5A5A5;
+	background-color: #000000;
+	border-style: none;
+	border-bottom: 0.32px solid;
+	border-bottom-color:#A5A5A5 ;
+	font-size: 21px;
+	padding:0 0 22px 45px;
+	min-width: 100%;
+  }
+  

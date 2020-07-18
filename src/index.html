@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- declaring the primary language of the web page -->
+<head>
+	<!-- defining the page charset -->
+
+<meta charset="UTF-8">
+<title>Order Details History</title>
+<!-- allows the page to use the full available device screen width and sets the initial zoom level whrn the page loads -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700,800,900&display=swap" rel="stylesheet">
+</head>
+<body class="homepage container-class">
+
+  <header class="header-navigation">
+        <nav class="top-banner">
+            <div class="top-banner__content fl-right">
+                <ul class="header__menu-icons head-ul">
+                    <li class="header__menu-icons--li head-list">
+                        <div class="header__menu-icons--li-wrap text-caps">
+                            <span>wishlist</span><img class="header__menu-icons--item" src="img/wishlist.png"
+                                alt="wishlist" />
+                            <span class="count">2</span>
+                        </div>
+                    </li>
+                    <li class="header__menu-icons--li head-list">
+                        <div class="header__menu-icons--li-wrap text-caps">
+                            <span>cart</span><img class="header__menu-icons--item cart-img" src="img/cart-bag.png"
+                                alt="cart" />
+                            <span class="count">2</span>
+                        </div>
+                    </li>
+                    <li class="header__menu-icons--li head-list">
+
+                        <img class="header__menu-icons--item cart-img" src="img/user.png" alt="user" /><span>Sairam
+                            keesara</span> <img src="img/right_chevron-white.png" alt="right"
+                            class="header__drop-down-arrow" />
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="header-color">
+            <div class="header-div">
+                <nav class="navbar-main ">
+                    <div class="header__logo">
+                        <img src="./img/logo-1.png" alt="logo" />
+                    </div>
+                    <div class="header__menu">
+                        <ul class="header__menu-list text-caps head-ul">
+                            <li class="header__menu-list--li head-list">
+                                <a href="#" class="header__menu-list--item head-link">Phone</a>
+                            </li>
+                            <li class="header__menu-list--li head-list">
+                                <a href="#" class="header__menu-list--item head-link">Television</a>
+                            </li>
+                            <li class="header__menu-list--li head-list">
+                                <a href="#" class="header__menu-list--item head-link">Refrigerator</a>
+                            </li>
+                            <li class="header__menu-list--li head-list">
+                                <a href="#" class="header__menu-list--item head-link">Laptop</a>
+                            </li>
+                            <li class="header__menu-list--li head-list">
+                                <a href="#" class="header__menu-list--item head-link">Washing Machine</a>
+                            </li>
+                        </ul>
+                        <ul class="head-ul">
+                            <li class="header__menu-list--li head-list">
+                                <div class="search-bar">
+                                    <form action="#" class="search-icon" autocomplete="on">
+                                        <fieldset>
+                                            <legend>Search Drop Down</legend>
+                                            <div class="search-dropdown-before-after">
+                                                <label for="search-dropdown-component" class="label-hide">Search drop
+                                                    down</label>
+                                                <input type="text" id="search-dropdown-component" class="search-field"
+                                                    placeholder="Search for products" autocomplete="on" aria-label="search-dropdown-component">
+                                            </div>
+
+                                            <div class="content-search-dropdown">
+                                                <ul>
+                                                    <li class="list-dropdown-list">Product1</li>
+                                                    <li class="list-dropdown-list">Product2</li>
+                                                </ul>
+                                            </div>
+                                        </fieldset>
+                                    </form>
+                                </div>
+
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+
+	<!-- naviagtor links for the order page -->
+<div class="order-header-menu clearfix" role="navigation">
+      <div class="menu-item1 order-font-set3">
+        <a href="#" class="order-menubar-link1">Home</a>
+        <a href="#"  class="order-menubar-link1">/ My Profile</a>
+      </div>
+        <h1 class="menu-item2 order-font-set4">Order History</h1>
+  		<div class="order-track-bar ">
+    		<div class="track-order-item1">
+          <a href="#" class="order-menubar-link1 ">Delivered</a>
+        </div>
+        <div class="track-order-item2">
+          <a href="#" class="order-menubar-link1 ">Shipping in progress(1)</a>
+        </div>
+        <div class="track-order-item3">
+            <a href="#" class="order-menubar-link1 ">All</a>
+        </div>
+    </div>
+</div>
+
+<!-- navigator links for the page ends -->
+
+<aside class="left-aside">
+      <div class="account">
+        <a href="#">
+          <img src="img/image.png" alt="userimage" class="left-nav-image">
+        </a>
+        <p class="left-nav-username">Sairam Keesara</p>
+        <p class="left-nav-useremail">sairam.keesara@techaspect.com</p>
+        <p class="left-nav-usercontact">+1 510-962-3200</p>
+      </div>
+      <section class="profile">
+        <h2 class="profile-heading">MY PROFILE</h2>
+        <ul class="profile-list">
+          <li>
+            <a href="#" class="profile-links">
+              <img src="img/user.png" alt="profileicon" class="profile-icons">
+              <span class="profile-text">Account Details</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="profile-links">
+              <img src="img/timer-icon.png" alt="user-orderhistory" class="profile-icons">
+              <span class="profile-text">Order History</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="profile-links">
+              <img src="img/wishlist.png" alt="user-wishlist" class="profile-icons">
+              <span class="profile-text">Wishlist</span>
+            </a>
+          </li>
+          <li><a href="#" class="profile-links">
+            <img src="img/location-icon.png" alt="address" class="profile-icons">
+            <span class="profile-text">Manage Addresses</span>
+          </a>
+        </li>
+          <li>
+            <a href="#" class="profile-links">
+              <img src="img/card-icon.png" alt="paymentmethod" class="profile-icons">
+              <span class="profile-text">Payment Options</span>
+            </a>
+          </li>
+          <li>
+            <a href="#" class="profile-links">
+              <img src="img/logout-icon.png" alt="user-logout" class="profile-icons">
+              <span class="profile-text">Logout</span>
+            </a>
+          </li>
+        </ul>
+      </section>
+    </aside>
+
+<!-- main starts -->
+
+<!-- list of order history of the user logged in -->
+<main>
+	<!-- order section according to its category(delivered, returned, shipped) -->
+	<section class="order-section order-layout">
+    <h1 class="order-list-description-title">Order 1</h1>
+		<div class="order-section-product-track-tag order-font-set6 order-track-tag">Shipping</div>
+		<div class="order-section-product-order-number order-font-set4">Order Number: 756585948473</div>
+		<div class="order-progress-bar order order-font-set5">
+			<span class="order-progress-bar-status1 order-status ">order placed</span>
+			<span class="order-progress-bar-status2 order-status">paid</span>
+			<span class="order-progress-bar-status3 order-status">processed</span>
+			<span class="order-progress-bar-status4 order-status">shipped</span>
+			<span class="order-progress-bar-status5 order-status">delivered</span>
+		</div>
+		<!-- order tracking dates-->
+		<ul class="order-track-date order-font-set5">
+			<li>Aug 9 2018 </li>
+			<li>Aug 9 2018 </li>
+			<li>Aug 9 2018 </li>
+			<li>Aug 9 2018 </li>
+		</ul>
+		<!-- order details section -->
+		<section class="order-history-list order-border clearfix">
+			<h2 class="order-list-description-title">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</h2>
+			<img class="order-list-image" src="img/product-thumb-3.png" alt="product-thubmnail" >
+      <div class="order-list-description">
+        <span class="order-name  ">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</span>
+        <span class="order-name ">$229 1 Item(s)</span>
+      </div>
+      <div class="order-invoice-container">
+			     <a href="#" class="order-list-download-invoice  ">Download Invoice</a>
+      </div>
+		</section>
+		<!-- customer shipping and billing details -->
+		<section class="order-history-list-customer-info order-border clearfix">
+			<h2 class="order-list-description-subtitle  ">Customer Information</h2>
+			<!-- shipping address section -->
+			<section class="order-history-list-customer-shipping">
+			     <h3 class="shipping-info-heading  ">Shipping Address</h3>
+		       <address class="order-address ">
+        	  	<div class="order-owner">Sairam Keesara</div>
+    					<div class="order-street">5600 Mowry School Rd., Ste.</div>
+    					<div class="order-city">220, Newark, CA</div>
+    					<div class="order-pincode"> 94560</div>
+    					<div class="order-mobile">+1 510-962-3200</div>
+				   </address>
+				<p class="order-shipping-method ">Shipping Method</p>
+				<p class="order-shipping-details ">Standard 3-5 buisness days</p>
+			</section>
+			<!-- billing address section -->
+			<section class="order-history-list-customer-shipping">
+				<h3 class="shipping-info-heading ">Billing Address</h3>
+				<address class="order-address  ">
+					<div class="order-owner">Sairam Keesara</div>
+					<div class="order-street">5600 Mowry School Rd., Ste.</div>
+					<div class="order-city">220, Newark, CA</div>
+					<div class="order-pincode"> 94560</div>
+					<div class="order-mobile ">+1 510-962-3200</div>
+				</address>
+				<p class="order-shipping-method  ">Payment Method</p>
+				<p class="order-shipping-details  ">Credit Card &nbsp; xxxx xxxx xxxx 3456</p>
+			</section>
+		</section>
+		<!-- customer order summary section -->
+		<section class="order-summary">
+			<h2 class="order-list-description-subtitle  ">Summary</h2>
+			<!-- order price and shipping charge details -->
+			<table class="order-summary-table">
+				<tr class="table-row">
+					<th class="table-heading">Heading</th>
+					<th class="table-heading">Heading</th>
+				</tr>
+				<tr>
+					<td class="table-data  ">Order Value</td>
+					<td class="table-dataf  ">$ 259.99</td>
+				</tr>
+				<tr >
+					<td class="table-data1  ">Shipping</td>
+					<td class="table-data2  ">$ 6.99</td>
+				</tr>
+				<tr >
+					<td class="table-data1  ">Discount</td>
+					<td class="table-data2  ">-$ 9.99</td>
+				</tr>
+				<tr >
+					<td class="table-data1  ">Tax</td>
+					<td class="table-data2  ">$ 6.99 </td>
+				</tr>
+				<tr>
+					<td class="table-data3  order-font-set2">Total</td>
+					<td class="table-data4  order-font-set2">$ 965.99</td>
+				</tr>
+			</table>
+		</section>
+	</section>
+	<!-- order details section 2 -->
+	<section class="order-section2 order-layout">
+    <h2 class="order-list-description-title">Order 1</h2>
+		<div class="order-section2-product-track-tag order-font-set6 order-track-tag">Returned</div>
+		<section class="order-section2-history order-border clearfix">
+			<h2 class="order-list-description-title">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</h2>
+			<img class="order-list-image" src="img/product-thumb-2.png" alt="product-thubmnail">
+			<!-- order description -->
+      <div class="order-list-description">
+        <span class="order-name  ">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</span>
+        <span class="order-name ">$229 1 Item(s)</span>
+      </div>
+      <div class="order-section2-final-price">
+        <span class="order-price order-font-set4">$965.99</span>
+        <span class="order-section2-product-total  ">Grand Total</span>
+      </div>
+		</section>
+		<!-- order number and date -->
+    <div class="order-overview">
+      <div class="order-section2-div">
+        <span class="order-section2-product-order-number ">Order Number: 756585948473</span>
+        <span class="order-section2-product-order-date ">August 9 2018</span>
+      </div>
+      <div class="order-section2-order-details-link-container">
+        <a href="#" class="order-section2-order-details-link">Order Details</a>
+      </div>
+  </div>
+	</section>
+	<!-- order section 3 -->
+	<section class="order-section2 order-layout">
+    <h2 class="order-list-description-title">Order 1</h2>
+		<div class="order-section3-order-track-tag order-font-set6 order-track-tag">Delivered</div>
+		<section class="order-section2-history order-border clearfix">
+			<h2 class="order-list-description-title">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</h2>
+			<img class="order-list-image" src="img/product-thumb-4.png" alt="product-thubmnail">
+			<!-- order description -->
+			<div class="order-list-description">
+				<span class="order-name  ">Honor 8 Pro (Midnight Black 128GB)(6GB RAM)</span>
+				<span class="order-name ">$229 1 Item(s)</span>
+			</div>
+			<div class="order-section2-final-price">
+				<span class="order-price order-font-set4">$965.99</span>
+				<span class="order-section2-product-total  ">Grand Total</span>
+			</div>
+  	</section>
+        <div class="order-overview">
+          <div class="order-section2-div">
+            <span class="order-section2-product-order-number ">Order Number: 756585948473</span>
+            <span class="order-section2-product-order-date ">August 9 2018</span>
+          </div>
+          <div class="order-section2-order-details-link-container">
+            <a href="#" class="order-section2-order-details-link">Order Details</a>
+          </div>
+      </div>
+		<!-- order number and date details -->
+
+	</section>
+
+</main>
+<!-- main ends-->
+<script src="js/app.js"></script>
+<script>
+  axe.run(function (err, results) {
+    if (results.violations.length) {
+      console.warn(results.violations);
+    }
+  });
+</script>
+</body>
+
+</html>

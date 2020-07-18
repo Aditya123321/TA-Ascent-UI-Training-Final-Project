@@ -1,0 +1,79 @@
+.account {
+	border-bottom: 1px solid #f8f8f8;
+	padding-bottom: 40px;
+	text-align: center;
+}
+
+/* aside block style */
+.left-aside {
+	background-color: #fff;
+	padding-top: 48px;
+	width: 22%; /* 304px */
+	margin-left: 3.5%;
+	float: left;
+}
+
+/* userimage style */
+.left-nav-image {
+	border-radius: 50%;
+	display: block;
+	height: 72px;
+	margin: 0 auto 0 auto;
+	width: 72px;
+}
+
+/* usercontact style */
+.left-nav-usercontact {
+	color: #555;
+	padding: 5px 0;
+}
+
+/* useremail style */
+.left-nav-useremail {
+	color: #555;
+	padding: 5px 0 5px 0;
+}
+
+/* username style */
+.left-nav-username {
+	font-weight: 600;
+	padding: 18px 0 5px 0;
+}
+
+/* profile details box style */
+.profile {
+	padding: 25px 0 22px 35px;
+}
+
+/* section heading style */
+.profile-heading {
+	/* color: #A5A5A5;   overwriting color to black to attain accessibility test */
+	color: #000;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+
+/* list icons style */
+.profile-icons {
+	width: 14px;
+}
+
+/* ul links style */
+.profile-links {
+	color: #555;
+	font-size: 13px;
+	text-decoration: none;
+}
+
+/* profile unordered list style */
+.profile-list {
+	line-height: 3;
+	list-style: none;
+}
+
+/* list text style */
+.profile-text {
+	color: #555;
+	font-size: 13px;
+	padding-left: 10px;
+}

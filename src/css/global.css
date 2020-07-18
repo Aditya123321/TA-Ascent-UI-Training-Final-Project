@@ -1,0 +1,129 @@
+html {
+	line-height: 1;
+
+	/* 1 */
+	-webkit-text-size-adjust: 100%;
+
+	/* 2 */
+}
+
+/* Line spacing for all elements in the body */
+
+body {
+	background-color: #fcfcfc;
+	box-sizing: border-box;
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 0.875em;
+	margin: 0;
+}
+
+.dis-block {
+	display: block;
+}
+
+h1,
+h2,
+h3 {
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+/* Defining the navigation bar with font size, family and weight. */
+
+.navbar-main {
+	font-weight: bold;
+}
+
+/* Taking the elements inline and applying  padding */
+
+.navbar-main .nav-item {
+	display: inline-block;
+	padding: 0 40px;
+}
+
+/* basic button */
+
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.fl-left {
+	float: left;
+}
+
+.fl-right {
+	float: right;
+}
+
+/* to support all the browsers */
+
+main {
+	display: block;
+}
+
+/* footer background */
+
+.footer-tinted-black {
+	background-color: #1d1d1d;
+}
+
+a:visited,
+a:hover,
+a:active,
+a {
+	/* color: #3370FF;   this color is not needed for most peopel  */
+	text-decoration: none;
+}
+
+/* bold text */
+
+.text-bold {
+	font-weight: bold;
+}
+
+/* italic text */
+
+.text-italic {
+	font-style: italic;
+}
+
+/*  semi-bold text */
+
+.text-semibold {
+	font-weight: 600;
+}
+
+/* medium text */
+
+.text-medium {
+	font-weight: 500;
+}
+
+/* capital text */
+
+.text-caps {
+	text-transform: uppercase;
+}
+
+/* text lowercase */
+
+.text-lowercase {
+	text-transform: lowercase;
+}
+
+/* UTLITY CLASSES */
+
+/* clearfix to fix the height collapse and make the container element auto-grow */
+
+.clearfix {
+	clear: both;
+}
+
+.clearfix::before,
+.clearfix::after {
+	clear: both;
+	content: '';
+	display: table;
+}

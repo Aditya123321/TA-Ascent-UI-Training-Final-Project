@@ -1,0 +1,90 @@
+/* GLOBAL SEARCH DROP DOWN COMPONENT CSS STARTS */
+
+
+/* Parent div in global search dropdown */
+
+.search-bar {
+	width: 227px;
+	height: 40px;
+	position: relative;
+	float: right;
+	margin-top: -1em;
+}
+
+
+/* Initial display icon */
+
+.search-icon {
+	margin-top: 0.4em;
+	position: absolute;
+	right: 0;
+	z-index: 5;
+}
+
+
+/* Added an extra div to add pseudo classes to input[type="text"] */
+
+
+/* .search-dropdown-before-after:after {
+    content: '\2715';
+} */
+
+
+/* CSS to the text field after focus */
+
+.search-field {
+	position: relative;
+	border: none;
+	background-color: transparent;
+	display: inline-block;
+	width: 1.714em;
+	height: 1.714em;
+	padding-top: 0;
+	box-sizing: border-box;
+	background: url('../img/search-icon.png') no-repeat left center;
+	background-size: 19.8px;
+	padding-left: 30px;
+	transition: width 0.2s ease-out;
+}
+
+
+/* search field on focus */
+
+.search-dropdown-before-after .search-field:focus {
+	width: 227px;
+	height: 40px;
+	border-width: 2px;
+	border-color: #A5A5A5;
+	border-bottom: 0.5px solid;
+	color: #2D323D;
+	margin: 0;
+}
+
+.label-hide {
+	display: none;
+}
+
+
+/* Drop down suggession list */
+
+.content-search-dropdown {
+	position: absolute;
+	right: 0;
+	background-color: #fff;
+	height: 13.071em;
+	width: 16.571em;
+	/* The dropdown is initially hidden which should be made visible on suggestions */
+	display: none;
+}
+
+
+/* Suggession list items in the dropdown */
+
+.list-dropdown-list {
+	font-size: 20px;
+	margin-top: 1em;
+	padding-left: 3em;
+}
+
+
+/* GLOBAL SEARCH DROP DOWN COMPONENT CSS ENDS */

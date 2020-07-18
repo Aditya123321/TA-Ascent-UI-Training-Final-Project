@@ -1,0 +1,420 @@
+.ascent-c-header-container {
+	background-color: #fff;
+}
+
+/* Setting the background color */
+.container-class {
+	background-color: #ccc;
+}
+
+/* Setting style for the anchor tag */
+.menu-item1 {
+	float: left;
+	margin-left: 3.3%;
+	width: 22%;
+	padding-top: 12px;
+}
+
+.menu-item2 {
+	float: left;
+	margin-left: 3%;
+	width: 30%;
+	color: #333;
+}
+
+.order-header-menu {
+	margin: 2% 0;
+}
+
+.order-menubar-link1 {
+	color: #33465d !important;
+}
+
+/* Order details continer layout */
+.order-layout {
+	width: 54%;
+	background-color: #fff;
+	float: left;
+	margin-left: 3%;
+}
+
+/* Setting the common border stlye  for every section of order details */
+.order-border {
+	border-bottom: 1.5px solid #f8f8f8;
+}
+
+/* Style for first order section */
+.order-section {
+	padding: 18px 32px 34px;
+}
+
+/* Styling for the order tracking progress bar */
+.order-progress-bar {
+	background: #edeeef;
+	position: relative;
+	border-radius: 12px;
+	height: 24px;
+	padding: 0;
+	margin: 0;
+	text-transform: uppercase;
+}
+
+/* Styling for the order tracking progress bar */
+.order-progress-bar::after {
+	content: '';
+	display: block;
+	background: #22b47e;
+	width: 77%; /* box collapse and border collapse */
+	height: 24px;
+	border-radius: 9px;
+}
+
+/* Setting the position of order status details */
+.order-status {
+	color: #fff;
+	top: 6px;
+	position: absolute;
+}
+
+/* Setting individual spacing for the status elements */
+.order-progress-bar-status1 {
+	left: 2%;
+}
+
+.order-progress-bar-status2 {
+	left: 24%;
+}
+
+.order-progress-bar-status3 {
+	left: 43%;
+}
+
+.order-progress-bar-status4 {
+	left: 65%;
+}
+
+.order-progress-bar-status5 {
+	left: 90%;
+}
+
+/* Setting individual spacing for the status elements  ends */
+
+/* Styling for the order tags */
+
+.order-section-product-order-number {
+	padding: 20px  33px;
+}
+
+.order-track-tag {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 1px 9px;
+	display: inline-block;
+	margin: 0 0 0 -16px;
+}
+
+/* Order heading style */
+.order-section-product-track-tag {
+	background-color: #fa0;
+}
+
+/* Order date styling */
+.order-track-date {
+	padding: 16px 0 0 16px;
+}
+
+.order-track-date li {
+	float: left;
+	margin-left: 15%;
+}
+
+/* Individual order date positioning */
+.order-track-date li:nth-child(1) {
+	float: left;
+	margin-left: 1%;
+}
+
+/* Individual order date positioning  ends */
+
+/* Order history details */
+
+.order-history-list {
+	margin: 42px 0 0;
+	padding-bottom: 3%;
+}
+
+/* Order image styling */
+.order-list-image {
+	width: 56px;
+	float: left;
+}
+
+/* Order specifications styling */
+.order-list-description {
+	float: left;
+	margin: 5px 0 5px;
+}
+
+/* Order name style */
+.order-name {
+	display: block;
+	color: #2d323d;
+	font-weight: 650;
+	line-height: 1.5;
+}
+
+.order-price {
+	display: block;
+	font-weight: bold;
+	line-height: 1.5;
+}
+
+.order-invoice-container {
+	float: right;
+}
+
+/* Order invoice link styling */
+.order-list-download-invoice {
+	/* display: inline-block; */
+	margin: 0 10px 0 790px;
+	color: blue;
+	text-decoration: none;
+}
+
+/* Setting the section heading to none  */
+.order-list-description-title {
+	display: none;
+}
+
+/* Order customer shipping and billing section style */
+.order-history-list-customer-info {
+	padding: 3% 0;
+}
+
+/* Order customer information section heading  style */
+.order-list-description-subtitle {
+	color: #a5a5a5;
+	text-transform: uppercase;
+}
+
+/* Customer shipping details style */
+.order-history-list-customer-shipping {
+	float: left;
+	width: 40%;
+}
+
+/* Shipping address style */
+.order-address {
+	color: #999;
+}
+
+/* Shipping heading style */
+.shipping-info-heading {
+	color: #2d323d;
+	margin-top: 21px;
+}
+
+/* Customer address details style */
+.order-owner {
+	padding-top: 3%;
+}
+
+.order-street {
+	padding-top: 3.5%;
+}
+
+.order-city {
+	line-height: 24px;
+}
+
+.order-mobile {
+	padding-top: 3%;
+}
+
+.order-shipping-method {
+	color: #2d323d;
+	padding-top: 37px;
+	display: inline-block;
+
+	/* Margin-top:37px; */
+}
+
+.order-shipping-details {
+	color: #999;
+
+	/* display:block; */
+	padding-top: 13px;
+}
+
+/* Customer address details style ends */
+
+/* Order summary price and disount style */
+.order-summary {
+	padding: 34px 0;
+}
+
+/* Summary table styling -setting cell width and heading  starts */
+.order-summary-table {
+	border: none;
+}
+
+/* Order section 2 layout */
+.order-section2 {
+	margin: 1.5% 0 0 28.5%;
+	float: left;
+	padding: 17px 32px 16px;
+}
+
+/* Order section 2 history details */
+.order-section2-history {
+	margin: 0;
+	padding: 17px 0 12px 0;
+}
+
+/* Order tag styling */
+.order-section2-product-track-tag {
+	background-color: #ff3c34;
+}
+
+/* Order price details style */
+.order-section2-final-price {
+	float: right;
+	text-align: right;
+	padding-right: 40px;
+}
+
+.order-section2-product-price {
+	color: #244152;
+	display: block;
+	padding-left: 14px;
+}
+
+.order-section2-product-total {
+	color: #333;
+	display: block;
+	padding-left: 14px;
+}
+
+/* Order price details style  ends */
+
+/* Order price detail div */
+.order-section2-div {
+	float: left;
+}
+
+.order-section2-order-details-link-container {
+	float: right;
+	padding-left: 20px;
+}
+
+.order-overview {
+	display: block;
+	padding: 26px 0 0 0;
+}
+
+.order-section2-product-order-date {
+	padding-left: 36px;
+}
+
+/* Order deatils  link style */
+.order-section2-order-details-link {
+	text-decoration: none;
+	display: inline-block;
+	padding: 8px 28px 6px 22px;
+	border: 1px solid #33465d;
+	color: #33465d;
+}
+
+/* Order section 3 type tag */
+.order-section3-order-track-tag {
+	background-color: #22b47e;
+}
+
+.order-font-set2 {
+	font-size: 1em;
+}
+
+.order-font-set3 {
+	font-size: 0.813em;
+}
+
+.order-font-set4 {
+	font-size: 1.125em;
+}
+
+.order-font-set6 {
+	font-size: 0.625em;
+}
+
+.order-font-set5 {
+	font-size: 0.75em;
+}
+
+.table-heading {
+	display: none;
+}
+
+.table-data1,
+.table-data,
+.table-data3 {
+	width: 80%;
+}
+
+.table-data1,
+.table-data2,
+.table-data3,
+.table-data4 {
+	padding-top: 13px;
+}
+
+.table-data-price,
+.table-data2,
+.table-data4 {
+	text-align: right;
+}
+
+.table-data {
+	padding-top: 20px;
+}
+
+.table-data3,
+.table-data4 {
+	text-transform: uppercase;
+}
+
+/* Summary table styling -setting cell width and heading  ends */
+
+/* Nav bar styling starts */
+
+/* header orer menu styling  */
+
+.track-order-bar {
+	float: right;
+	width: 40%;
+	color: #33465d;
+}
+
+.track-order-item1 {
+	float: right;
+	margin-right: 14%;
+	padding-top: 12px;
+}
+
+.track-order-item2 {
+	float: right;
+	margin-right: 2%;
+	padding-top: 12px;
+}
+
+.track-order-item3 a:active {
+	float: right;
+	margin-right: 2%;
+}
+
+.track-order-item3 {
+	float: right;
+	margin-right: 2%;
+	color: #3370ff !important;
+	text-decoration: underline;
+	padding-top: 12px;
+}
